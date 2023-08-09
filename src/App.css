@@ -1,0 +1,88 @@
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.apps {
+  color: black;
+}
+
+.apps:hover {
+  color: rgb(80, 80, 225);
+}
+
+.summary {
+  color: gray;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+.sum:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.summary2 {
+  color: gray;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+.summary2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.social-icons {
+  text-align: end;
+}
+
+.social-icons a {
+  font-size: 30px;
+  margin: 0 5px;
+}
+
+.socials {
+  color: black;
+}
+
+.socials:hover {
+  color: rgb(80, 80, 225);
+}
+
+.container {
+  align-items: center;
+}
+
+.projects-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: rgb(251, 252, 253);
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projects-button:hover {
+  color: rgb(80, 80, 225);
+}
+
+.arrow {
+  border: solid #333;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow.down {
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+/* Additional CSS styles for your page */
