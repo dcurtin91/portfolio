@@ -28,7 +28,7 @@ function MyApps() {
           fontSize: "40px",
         }}
       >
-        Chicago-based web developer and musician
+        Chicago, IL
       </h1>
       <div
         style={{
