@@ -4,7 +4,7 @@ function Music() {
             <div className="tile is-ancestor" style={{ marginTop: "30px" }}>
                 <div className="tile is-parent" style={{ display: "flex", justifyContent: "center" }} >
                     <div className="tile is-12 is-child box" style={{ display: "flex", justifyContent: "center", width: "75%" }}>
-                        <iframe style={{ width: "100%" }} className="soundcloud" title="soundcloud" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1567047631&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=false" seamless><a href="https://soundcloud.com/davidcurtin/sets/david-curtin-album">David Curtin Album</a></iframe>
+                        <iframe style={{ width: "100%" }} className="soundcloud" title="soundcloud" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1686068844&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=false" seamless><a href="https://soundcloud.com/davidcurtin/sets/david-curtin-album">David Curtin Album</a></iframe>
 
                     </div>
                 </div>
