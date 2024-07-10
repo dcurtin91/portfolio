@@ -1,10 +1,31 @@
 function Music() {
+    
     return (
         <div>
             <div className="tile is-ancestor">
                 <div className="tile is-4 is-parent">
                     <div className="tile is-child box" style={{ display: "flex", justifyContent: "center" }}>
-                        <iframe className="bandcamp" title="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=3904961062/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://davidcurtin.bandcamp.com/album/cms">CMS by David Curtin</a></iframe>
+                        <iframe className="bandcamp" title="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=479054567/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://davidcurtin.bandcamp.com/album/gas">Gas by David Curtin</a></iframe>
+                    </div>
+                </div>
+                <div className="tile is-4 is-parent">
+                    <div className="tile is-child box" style={{ display: "flex", justifyContent: "center" }}>
+
+                        <iframe className="bandcamp" title="fruits" src="https://bandcamp.com/EmbeddedPlayer/track=3463874471/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://davidcurtin.bandcamp.com/track/damp-melody">Damp Melody by David Curtin</a></iframe>
+
+                    </div>
+                </div>
+                <div className="tile is-4 is-parent">
+                    <div className="tile is-child box" style={{ display: "flex", justifyContent: "center" }}>
+                        <iframe className="bandcamp" title="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=2344229829/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://davidcurtin.bandcamp.com/track/rocky-breaks">Rocky Breaks by David Curtin</a></iframe>
+                    </div>
+                </div>
+
+            </div>
+            <div className="tile is-ancestor">
+                <div className="tile is-4 is-parent">
+                    <div className="tile is-child box" style={{ display: "flex", justifyContent: "center" }}>
+                        <iframe className="bandcamp" title="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/track=3904961062/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://davidcurtin.bandcamp.com/track/dave11">Dave11 by David Curtin</a></iframe>
                     </div>
                 </div>
                 <div className="tile is-4 is-parent">
@@ -45,6 +66,6 @@ function Music() {
     )
 }
 
-//3408169599
+//3408169599m
 
 export default Music;
