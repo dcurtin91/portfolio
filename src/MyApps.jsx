@@ -4,6 +4,7 @@ import image from "./speccheck.png";
 import image2 from "./GPTloop.png";
 import image3 from "./memberportal.png";
 import image4 from "./spectralcentroid.png";
+import AbstractArt from "./AbstractArt.jsx";
 // import Summary from "./Summary";
 // import SummaryTwo from "./SummaryTwo";
 import "./App.css";
@@ -37,6 +38,7 @@ function MyApps() {
           marginTop: "30px",
         }}
       >
+        <AbstractArt />
         <Link
           to="bottom"
           spy={true}

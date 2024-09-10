@@ -1,3 +1,14 @@
+.abstract-art {
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.morphed {
+  transform: scale(1.2) rotate(45deg);
+  filter: blur(2px);
+}
+
+
+
 h1 {
   font-weight: bold;
   text-align: center;
