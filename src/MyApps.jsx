@@ -5,8 +5,6 @@ import image2 from "./GPTloop.png";
 import image3 from "./memberportal.png";
 import image4 from "./spectralcentroid.png";
 import AbstractArt from "./AbstractArt.jsx";
-// import Summary from "./Summary";
-// import SummaryTwo from "./SummaryTwo";
 import "./App.css";
 
 function MyApps() {
@@ -16,7 +14,7 @@ function MyApps() {
         style={{
           alignItems: "center",
           marginTop: "200px",
-          fontSize: "80px",
+          fontSize: "50px",
 
         }}
       >
@@ -66,9 +64,7 @@ function MyApps() {
                CouchSurfing Network - Member Portal
               </a>
             </h1>
-            {/* <div className="summary">
-              *Work in Progress
-            </div> */}
+            
             <a
               href="https://dcurtin91.github.io/member-portal"
               target="_blank"
@@ -77,9 +73,7 @@ function MyApps() {
               <img src={image3} alt="memberportal" />
             </a>
           </div>
-          {/* <div class="tile is-child box">
-                    <a href="/apps/spectralcentroid">Spectral Centroid</a>
-                </div> */}
+         
         </div>
 
         <div className="tile is-6 is-vertical is-parent">
@@ -123,9 +117,7 @@ function MyApps() {
                 GPT Loop
               </a>
             </h1>
-            {/* <div className="summary">
-              <Summary />
-            </div> */}
+           
             <a
               href="https://dcurtin91.github.io/gpt-loop/"
               target="_blank"
@@ -134,9 +126,7 @@ function MyApps() {
               <img src={image2} alt="gptloop" />
             </a>
           </div>
-          {/* <div class="tile is-child box">
-                    <a href="http://dcurtin91.pythonanywhere.com/">Spectral Centroid</a>
-                </div> */}
+       
         </div>
 
         <div className="tile is-6 is-vertical is-parent">
