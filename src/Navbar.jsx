@@ -1,19 +1,38 @@
 import 'bulma/css/bulma.min.css';
 import { useState, useEffect } from 'react';
+import { faInstagramSquare, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './App.css'
 
 
 const Navbar = () => {
     const [currentPage, setCurrentPage] = useState('');
-    // const [isProjectsPage, setIsProjectsPage] = useState(false);
+
 
     useEffect(() => {
         setCurrentPage(window.location.pathname);
-        // setIsProjectsPage(window.location.pathname === '/projects/speccheck' || window.location.pathname === '/projects/gptloop');
+        
     }, []);
 
     const isActive = (href) => {
         return href === currentPage ? 'is-active' : '';
     };
+
+    const github =
+    <a href="https://github.com/dcurtin91" title="github" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={faGithub} className='socials' />
+    </a>
+
+    const instagram =
+    <a href="https://www.instagram.com/hifun13skateboard/" title="instagram" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={faInstagramSquare} className='socials' />
+    </a>
+
+    const linkedin =
+    <a href="https://www.linkedin.com/in/david-curtin-ba104649/" title="linkedin" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={faLinkedin} className='socials' />
+    </a>
+
     return (
         <div>
             <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -38,24 +57,6 @@ const Navbar = () => {
                                     Home/Projects
                                 </a></div>
 
-
-                                {/* <div>
-                                    {isProjectsPage && (
-                                        <ul>
-                                            <li>
-                                                <a href="/projects/gptloop" className={`navbar-item ${isActive('/projects/gptloop')}`} style={{ "margin-left": 5, "font-size": 12 }}>
-                                                    GPTLoop
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/projects/speccheck" className={`navbar-item ${isActive('/projects/speccheck')}`} style={{ "margin-left": 5, "font-size": 12 }}>
-                                                    SpecCheck
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    )}
-                                </div> */}
-
                                 <div><a href="/music" className={`navbar-item ${isActive('/david-curtin/music')}`}>
                                     Music
                                 </a></div>
@@ -69,7 +70,20 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
+                <section>
+            <div >
+                <div>
 
+                </div>
+                <div className="social-icons" aria-hidden="true">
+                    {github}
+
+                    {instagram}
+
+                    {linkedin}
+                </div>
+            </div>
+        </section>
 
             </nav>
         </div>

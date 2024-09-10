@@ -47,11 +47,13 @@ h1 {
 
 .social-icons {
   text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .social-icons a {
   font-size: 30px;
-  margin: 0 5px;
+  margin: 0 9px;
 }
 
 .socials {
