@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-scroll";
-import image from "./speccheck.png";
-import image2 from "./GPTloop.png";
-import image3 from "./memberportal.png";
-import image4 from "./spectralcentroid.png";
+// import image from "./speccheck.png";
+// import image2 from "./GPTloop.png";
+// import image3 from "./memberportal.png";
+// import image4 from "./spectralcentroid.png";
 //import AbstractArt from "./AbstractArt.jsx";
 //import "./App.css";
 
@@ -12,8 +12,8 @@ function MyApps() {
     <div className="container">
       <h1
         style={{
-          alignItems: "center",
-          marginTop: "200px",
+          alignItems: "left",
+          marginTop: "150px",
           fontSize: "50px",
 
         }}
@@ -22,9 +22,18 @@ function MyApps() {
       </h1>
       <h1
         style={{
-          alignItems: "center",
-          marginBottom: "200px",
+          alignItems: "left",
           fontSize: "40px",
+          marginBottom: "10px"
+        }}
+      >
+        Software Engineer and Musician
+      </h1>
+      <h1
+        style={{
+          alignItems: "left",
+          marginBottom: "150px",
+          fontSize: "30px",
         }}
       >
         Chicago, IL
@@ -44,11 +53,11 @@ function MyApps() {
           duration={500}
           className="projects-button"
         >
-          Projects <i className="arrow down"></i>
+         More About Me<i className="arrow down"></i>
         </Link>
       </div>
       <div id="bottom"></div>
-      <div
+      {/* <div
         className="tile is-ancestor"
         style={{ marginTop: "30px", marginBottom: "25px" }}
       >
@@ -153,7 +162,7 @@ function MyApps() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
