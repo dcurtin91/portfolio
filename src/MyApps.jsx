@@ -57,6 +57,10 @@ function MyApps() {
         </Link>
       </div>
       <div id="bottom"></div>
+      <div className="about">
+        <div>Work Experience</div>
+        <div>Projects</div>
+      </div>
       {/* <div
         className="tile is-ancestor"
         style={{ marginTop: "30px", marginBottom: "25px" }}

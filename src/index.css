@@ -3,9 +3,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(251, 252, 253);
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  /* background-color: rgb(251, 252, 253); */
 }
 
 code {
@@ -26,7 +26,8 @@ code {
 }
 
 .navbar {
-  background-color: rgb(251, 252, 253);
+  background-color: rgb(246, 247, 247);
+  color: black;
 }
 
 .bandcamp {
