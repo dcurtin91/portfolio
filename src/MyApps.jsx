@@ -42,7 +42,8 @@ function MyApps() {
         style={{
           display: "flex",
           justifyContent: "center",
-          marginTop: "30px",
+          marginTop: "100px",
+          marginBottom: "120px"
         }}
       >
         {/* <AbstractArt /> */}
@@ -52,121 +53,50 @@ function MyApps() {
           smooth={true}
           duration={500}
           className="projects-button"
+         
         >
          More About Me<i className="arrow down"></i>
         </Link>
       </div>
       <div id="bottom"></div>
       <div className="about">
-        <div>Work Experience</div>
-        <div>Projects</div>
+        <h1 className="headline">Work Experience</h1>
+        <ul>
+          <li>- Product Support @ WeWork (2023 - Present)</li>
+          <li>- Account Management @ Mandolin Software (2021 - 2023)</li>
+          <li>- Digital Events @ NoonChorus (2020 - 2021)</li>
+        </ul>
+        
+        <h1 className="headline">My Projects</h1>
+        <ul>
+          <li>- <a href="https://github.com/dcurtin91/stock-market-summary"
+           target="_blank"
+            title="AI Powered Stock Market Summarizer">
+              AI Powered Stock Market Summarizer</a>
+          </li>
+          <li>- <a href="https://github.com/dcurtin91/couchsurf-network"
+           target="_blank"
+            title="CouchSurf Network - Member Portal">
+              CouchSurf Network - Member Portal</a>
+          </li>
+          <li>- <a href="https://github.com/dcurtin91/spec-check-new"
+           target="_blank"
+            title="Spec Check">
+              Spec Check</a>
+          </li>
+          <li>- <a href="https://github.com/dcurtin91/gpt-loop"
+           target="_blank"
+            title="GPT Loop">
+              GPT Loop</a>
+          </li>
+          <li>- <a href="https://dcurtin91.pythonanywhere.com/"
+           target="_blank"
+            title="Central Spectroid">
+              Central Spectroid</a>
+          </li>
+        </ul>
       </div>
-      {/* <div
-        className="tile is-ancestor"
-        style={{ marginTop: "30px", marginBottom: "25px" }}
-      >
-        <div className="tile is-6 is-vertical is-parent">
-          <div className="tile is-child box">
-            <h1 style={{ marginBottom: "20px"}}>
-              <a
-                href="https://dcurtin91.github.io/member-portal"
-                target="_blank"
-                rel="noreferrer"
-                className="apps"
-              >
-               CouchSurfing Network - Member Portal
-              </a>
-            </h1>
-            
-            <a
-              href="https://dcurtin91.github.io/member-portal"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={image3} alt="memberportal" />
-            </a>
-          </div>
-         
-        </div>
-
-        <div className="tile is-6 is-vertical is-parent">
-          <div className="tile is-child box">
-            <h1 style={{ marginBottom: "20px"}}>
-              <a
-                href="https://dcurtin91.github.io/spec-check-new/"
-                target="_blank"
-                rel="noreferrer"
-                className="apps"
-              >
-                Spec Check
-              </a>
-            </h1>
-            <div className="summary">
-              *Calibrated for 2560 x 1600 display
-            </div>
-            <a
-              href="https://dcurtin91.github.io/spec-check-new/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={image} alt="speccheck" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div
-        className="tile is-ancestor"
-        style={{ marginTop: "25px", marginBottom: "10px" }}
-      >
-        <div className="tile is-6 is-vertical is-parent">
-          <div className="tile is-child box">
-            <h1 style={{ marginBottom: "20px"}}>
-              <a
-                href="https://dcurtin91.github.io/gpt-loop/"
-                target="_blank"
-                rel="noreferrer"
-                className="apps"
-              >
-                GPT Loop
-              </a>
-            </h1>
-           
-            <a
-              href="https://dcurtin91.github.io/gpt-loop/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={image2} alt="gptloop" />
-            </a>
-          </div>
-       
-        </div>
-
-        <div className="tile is-6 is-vertical is-parent">
-          <div className="tile is-child box">
-            <h1>
-              <a
-                href="http://dcurtin91.pythonanywhere.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="apps"
-              >
-                Spectral Centroid
-              </a>
-            </h1>
-            <div className="summary">
-              *Work in progress
-            </div>
-            <a
-              href="http://dcurtin91.pythonanywhere.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={image4} alt="speccheck" />
-            </a>
-          </div>
-        </div>
-      </div> */}
+      
     </div>
   );
 }
