@@ -7,7 +7,7 @@
   filter: blur(2px);
 }
 
-.about {
+.columns {
   background-image: linear-gradient(#bbb5b5, #a5a0a0);
   background-size: 2px 100%;
   background-repeat: no-repeat;

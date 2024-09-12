@@ -59,7 +59,8 @@ function MyApps() {
         </Link>
       </div>
       <div id="bottom"></div>
-      <div className="about">
+      <div className="columns">
+        <div className="column is-one-third">
         <h1 className="headline">Work Experience</h1>
         <ul>
           <li>- Product Support @ WeWork (2023 - Present)</li>
@@ -95,6 +96,9 @@ function MyApps() {
               Central Spectroid</a>
           </li>
         </ul>
+        </div>
+        <div className="column is-offset-one-third"></div>
+        <div className="column is-one-third"></div>
       </div>
       
     </div>
