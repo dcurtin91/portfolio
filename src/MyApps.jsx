@@ -60,7 +60,7 @@ function MyApps() {
       </div>
       <div id="bottom"></div>
       <div className="columns">
-        <div className="column is-one-third">
+        <div className="column is-5">
         <h1 className="headline">Work Experience</h1>
         <ul>
           <li>- Product Support @ WeWork (2023 - Present)</li>
@@ -68,7 +68,9 @@ function MyApps() {
           <li>- Digital Events @ NoonChorus (2020 - 2021)</li>
         </ul>
         
-        <h1 className="headline">My Projects</h1>
+        <h1 className="headline" style={{
+          marginTop: "80px"
+        }}>Projects</h1>
         <ul>
           <li>- <a href="https://github.com/dcurtin91/stock-market-summary"
            target="_blank"
@@ -97,8 +99,35 @@ function MyApps() {
           </li>
         </ul>
         </div>
-        <div className="column is-offset-one-third"></div>
-        <div className="column is-one-third"></div>
+        <div className="column is-1"></div>
+        <div className="column is-6" style={{
+          marginLeft: "50px"
+        }}>
+        <h1 className="headline">Tech Certifications</h1>
+        <ul style={{
+          marginBottom: "60px"
+        }}>
+          <li>- Harvard's CS50: Introduction to Computer Science - <a href="#">Certificate</a></li>
+          <li>- freeCodeCamp: </li>
+          <li className="fcc">Front End Development Libraries - <a href="https://www.freecodecamp.org/certification/dcurtin/front-end-development-libraries">
+               Certificate
+            </a>
+          </li>
+          <li className="fcc">JavaScript Algorithms and Data Structures - <a href="https://www.freecodecamp.org/certification/dcurtin/javascript-algorithms-and-data-structures-v8">
+               Certificate
+            </a>
+          </li>
+          <li className="fcc">Responsive Web Design - <a href="https://www.freecodecamp.org/certification/dcurtin/responsive-web-design">
+               Certificate
+            </a>
+          </li>
+        </ul>
+        <h1 className="headline">More...</h1>
+        <ul>
+          <li>- <a href="/contact">Send me an email</a></li>
+          <li>- <a href="/contact">My Music</a></li>
+        </ul>
+        </div>
       </div>
       
     </div>

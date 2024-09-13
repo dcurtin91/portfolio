@@ -54,7 +54,7 @@ const Navbar = () => {
                             </div>
                             <div className="navbar-dropdown" style={{ fontSize: "16px", color: "black"}}>
                                 <div><a href="/" className={`navbar-item ${isActive('/david-curtin/')}`}>
-                                    Home/Projects
+                                    Home/About
                                 </a></div>
 
                                 <div><a href="/music" className={`navbar-item ${isActive('/david-curtin/music')}`}>
