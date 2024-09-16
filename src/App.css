@@ -15,6 +15,12 @@
   font-size: 20px;
 }
 
+@media screen and (max-width: 800px) {
+  .columns {
+    display: none;
+  }
+}
+
 .fcc {
   font-size: 17px;
   padding-left: 40px;
@@ -103,14 +109,14 @@ h1 {
   border: solid #333;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 13px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
 .arrow.down {
   margin-left: 5px;
-  margin-bottom: 3px;
+  margin-bottom: 15px;
 }
 
-/* Additional CSS styles for your page */
+

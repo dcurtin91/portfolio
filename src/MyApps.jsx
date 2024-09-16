@@ -52,10 +52,9 @@ function MyApps() {
           spy={true}
           smooth={true}
           duration={500}
-          className="projects-button"
-         
+          className="projects-button"   
         >
-         More About Me<i className="arrow down"></i>
+         <i className="arrow down"></i>
         </Link>
       </div>
       <div id="bottom"></div>

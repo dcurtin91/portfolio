@@ -4,8 +4,6 @@ import Navbar from './Navbar';
 import Music from './Music';
 import MyApps from './MyApps';
 import { ContactUs } from './Contact';
-//import Footer from './Footer';
-
 // import 'bulma/css/bulma.min.css';
 import './App.css'
 
