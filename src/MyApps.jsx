@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
-// import image from "./speccheck.png";
-// import image2 from "./GPTloop.png";
-// import image3 from "./memberportal.png";
-// import image4 from "./spectralcentroid.png";
 //import AbstractArt from "./AbstractArt.jsx";
 //import "./App.css";
 
 function MyApps() {
+  const [atBottom, setAtBottom] = useState(false);
+
+  const handleClick = () => {
+    setAtBottom(!atBottom);
+  }
+
   return (
     <div className="container">
+     
       <h1
         style={{
           alignItems: "left",
@@ -47,15 +50,28 @@ function MyApps() {
         }}
       >
         {/* <AbstractArt /> */}
-        <Link
+        {( !atBottom && <Link
+          onClick={handleClick}
           to="bottom"
           spy={true}
           smooth={true}
           duration={500}
           className="projects-button"   
         >
-         <i className="arrow down"></i>
-        </Link>
+         <i className="arrow down"></i> 
+        </Link> )}
+
+        {( atBottom && <Link
+          onClick={handleClick}
+          to="top"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="projects-button"   
+        >
+         <i className="arrow up"></i>
+        </Link> )}
+        
       </div>
       <div id="bottom"></div>
       <div className="columns">

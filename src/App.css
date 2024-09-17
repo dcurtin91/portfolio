@@ -105,18 +105,26 @@ h1 {
   color: rgb(80, 80, 225);
 }
 
-.arrow {
+.arrow.up {
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border: solid #333;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 13px;
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+}
+
+.arrow.down {
+  margin-left: 5px;
+  margin-bottom: 15px;
   border: solid #333;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 13px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-}
-
-.arrow.down {
-  margin-left: 5px;
-  margin-bottom: 15px;
 }
 
 
