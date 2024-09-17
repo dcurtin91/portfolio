@@ -140,7 +140,7 @@ function MyApps() {
         <h1 className="headline">More...</h1>
         <ul>
           <li>- <a href="/contact">Send me an email</a></li>
-          <li>- <a href="/contact">My Music</a></li>
+          <li>- <a href="/music">Check out my music</a></li>
         </ul>
         </div>
       </div>
