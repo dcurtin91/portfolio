@@ -67,31 +67,7 @@ function MyApps() {
             <li>- Account Management @ Mandolin Software (2021 - 2023)</li>
             <li>- Digital Events @ NoonChorus (2020 - 2021)</li>
           </ul>
-          <div style={{ display: "flex", justifyContent: "center", marginTop: "100px", marginBottom: "120px" }}>
-        {/* <AbstractArt /> */}
-        {!atBottom && (
-          <Link
-            to="bottom"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="projects-button"
-          >
-            <i className="arrow down"></i>
-          </Link>
-        )}
-        {atBottom && (
-          <Link
-            to="top"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="projects-button"
-          >
-            <i className="arrow up"></i>
-          </Link>
-        )}
-      </div>
+          
           <h1 className="headline" style={{ marginTop: "80px" }}>Projects</h1>
           <ul>
             <li>- <a href="https://github.com/dcurtin91/stock-market-summary" target="_blank" title="AI Powered Stock Market Summarizer">AI Powered Stock Market Summarizer</a></li>
