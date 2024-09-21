@@ -61,14 +61,8 @@ function MyApps() {
 
       <div className="columns">
         <div className="column is-5">
-          <h1 className="headline">Work Experience</h1>
-          <ul>
-            <li>- Product Support @ WeWork (2023 - Present)</li>
-            <li>- Account Management @ Mandolin Software (2021 - 2023)</li>
-            <li>- Digital Events @ NoonChorus (2020 - 2021)</li>
-          </ul>
           
-          <h1 className="headline" style={{ marginTop: "80px" }}>Projects</h1>
+        <h1 className="headline">Projects</h1>
           <ul>
             <li>- <a href="https://github.com/dcurtin91/stock-market-summary" target="_blank" title="AI Powered Stock Market Summarizer">AI Powered Stock Market Summarizer</a></li>
             <li>- <a href="https://github.com/dcurtin91/couchsurf-network" target="_blank" title="CouchSurf Network - Member Portal">CouchSurf Network - Member Portal</a></li>
@@ -76,13 +70,22 @@ function MyApps() {
             <li>- <a href="https://github.com/dcurtin91/gpt-loop" target="_blank" title="GPT Loop">GPT Loop</a></li>
             <li>- <a href="https://dcurtin91.pythonanywhere.com/" target="_blank" title="Central Spectroid">Central Spectroid</a></li>
           </ul>
+          
+          <h1 className="headline" style={{ marginTop: "60px" }}>Work Experience</h1>
+          <ul>
+            <li>- Product Support @ WeWork (2023 - Present)</li>
+            <li>- Account Management @ Mandolin Software (2021 - 2023)</li>
+            <li>- Digital Events @ NoonChorus (2020 - 2021)</li>
+          </ul>
+          
+         
         </div>
 
         <div className="column is-1"></div>
 
         <div className="column is-6" style={{ marginLeft: "50px" }}>
           <h1 className="headline">Tech Certifications</h1>
-          <ul style={{ marginBottom: "60px" }}>
+          <ul style={{ marginBottom: "75px" }}>
             <li>- Harvard's CS50: Introduction to Computer Science - <a href="#">Certificate</a></li>
             <li>- freeCodeCamp:</li>
             <li className="fcc">Front End Development Libraries - <a href="https://www.freecodecamp.org/certification/dcurtin/front-end-development-libraries">Certificate</a></li>
