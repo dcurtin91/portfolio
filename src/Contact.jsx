@@ -1,7 +1,9 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const ContactUs = () => {
+    const [showConfirmation, setShowConfirmation] = useState('');
+    const [showForm, setShowForm] = useState('');
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -10,24 +12,28 @@ export const ContactUs = () => {
         emailjs.sendForm('service_4exugpd', 'template_2p84r1j', form.current, 'PPkFo7F-cUWCAtXQC')
             .then((result) => {
                 console.log(result.text);
-                resetForm(); // Clear form fields after successful email submission
+                resetForm(); 
             }, (error) => {
                 console.log(error.text);
             });
     };
 
+   
+
     const resetForm = () => {
         form.current.reset();
+       setShowConfirmation(`Thanks! I'll get back to you asap.`);
+       setShowForm('none');
     };
 
     return (
-        <div className="tile is-ancestor is-vertical" style={{ marginTop: "30px" }}>
+        <div className="tile is-ancestor is-vertical" style={{ marginTop: "30px" }} >
             <div className="tile is-parent is-vertical" >
                 <div className="tile is-child" style={{ display: "flex", justifyContent: "center" }}>
 
-                    <form ref={form} onSubmit={sendEmail}>
+                    <form ref={form} onSubmit={sendEmail} style={{ display: showForm }}>
 
-                        <div className="field is-horizontal">
+                        <div className="field is-horizontal" >
                             <div className="field-label is-normal">
                                 <label className="label">From</label>
                             </div>
@@ -78,10 +84,12 @@ export const ContactUs = () => {
                                             Send
                                         </button>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
                     </form>
+                    <div>{showConfirmation}</div>
                 </div>
             </div>
         </div>

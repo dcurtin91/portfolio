@@ -53,15 +53,15 @@ const Navbar = () => {
                                 Menu
                             </div>
                             <div className="navbar-dropdown" style={{ fontSize: "16px", color: "black"}}>
-                                <div><a href="/" className={`navbar-item ${isActive('/david-curtin/')}`}>
+                                <div><a href="/" className={`navbar-item ${isActive('/')}`}>
                                     Home/About
                                 </a></div>
 
-                                <div><a href="/music" className={`navbar-item ${isActive('/david-curtin/music')}`}>
+                                <div><a href="/music" className={`navbar-item ${isActive('/music')}`}>
                                     Music
                                 </a></div>
 
-                                <div><a href="/contact" className={`navbar-item ${isActive('/david-curtin/contact')}`}>
+                                <div><a href="/contact" className={`navbar-item ${isActive('/contact')}`}>
                                     Contact
                                 </a></div>
 
