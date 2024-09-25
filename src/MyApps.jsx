@@ -95,8 +95,8 @@ function MyApps() {
 
           <h1 className="headline">More...</h1>
           <ul>
-            <li>- <a href="/contact">Send me an email</a></li>
-            <li>- <a href="/music">Check out my music</a></li>
+            <li>- Send me an <a href="/contact">email</a></li>
+            <li>- Check out my <a href="/music">music</a></li>
           </ul>
         </div>
       </div>

@@ -57,6 +57,25 @@ export const ContactUs = () => {
                                         </span>
                                     </p>
                                 </div>
+                                
+                            </div>
+                        </div>
+
+                        <div className="field is-horizontal" >
+                            <div className="field-label is-normal">
+                                <label className="label">Subject</label>
+                            </div>
+                            <div className="field-body">
+                                <div className="field">
+                                    <p>
+                                        <input className="input" type="text" name="user_subject" placeholder="Hey Dave" />
+                                        <span className="icon is-small is-left">
+                                            <i className="fas fa-user"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                                
+                                
                             </div>
                         </div>
 
