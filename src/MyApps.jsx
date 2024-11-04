@@ -73,8 +73,9 @@ function MyApps() {
           
           <h1 className="headline" style={{ marginTop: "60px" }}>Work Experience</h1>
           <ul>
-            <li>- Product Support @ WeWork (2023 - Present)</li>
-            <li>- Account Management @ Mandolin Software (2021 - 2023)</li>
+          <li>- Customer Success Engineer @ Opendate (2024 - Present)</li>
+            <li>- Product Support @ WeWork (2023 - 2024)</li>
+            <li>- Digital Events @ Mandolin Software (2021 - 2023)</li>
             <li>- Digital Events @ NoonChorus (2020 - 2021)</li>
           </ul>
           
@@ -86,11 +87,11 @@ function MyApps() {
         <div className="column is-6" style={{ marginLeft: "50px" }}>
           <h1 className="headline">Tech Certifications</h1>
           <ul style={{ marginBottom: "75px" }}>
-            <li>- Harvard's CS50: Introduction to Computer Science - <a href="#">Certificate</a></li>
+            <li>- Harvard's CS50: Introduction to Computer Science - <a href="https://cs50.harvard.edu/certificates/d7060a35-0879-40a5-8ac1-31821e327e04" title="Harvard's CS50x" target="_blank">Certificate</a></li>
             <li>- freeCodeCamp:</li>
-            <li className="fcc">Front End Development Libraries - <a href="https://www.freecodecamp.org/certification/dcurtin/front-end-development-libraries">Certificate</a></li>
-            <li className="fcc">JavaScript Algorithms and Data Structures - <a href="https://www.freecodecamp.org/certification/dcurtin/javascript-algorithms-and-data-structures-v8">Certificate</a></li>
-            <li className="fcc">Responsive Web Design - <a href="https://www.freecodecamp.org/certification/dcurtin/responsive-web-design">Certificate</a></li>
+            <li className="fcc">Front End Development Libraries - <a href="https://www.freecodecamp.org/certification/dcurtin/front-end-development-libraries" title="Front End Cert" target="_blank">Certificate</a></li>
+            <li className="fcc">JavaScript Algorithms and Data Structures - <a href="https://www.freecodecamp.org/certification/dcurtin/javascript-algorithms-and-data-structures-v8" title="JS Algorithms Cert" target="_blank">Certificate</a></li>
+            <li className="fcc">Responsive Web Design - <a href="https://www.freecodecamp.org/certification/dcurtin/responsive-web-design" title="Web Design Cert" target="_blank">Certificate</a></li>
           </ul>
 
           <h1 className="headline">More...</h1>
