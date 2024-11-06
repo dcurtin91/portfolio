@@ -60,7 +60,7 @@ function MyApps() {
       <div id="bottom"></div>
 
       <div className="about">
-        <div className="tile is-ancestor">
+        <div className="tile is-ancestor" style={{ backgroundColor: "rgb(246, 247, 247)", borderTopLeftRadius: "5px", borderTopRightRadius: "5px", borderBottomLeftRadius: "0", borderBottomRightRadius: "0"}}>
           <div className="tile is-6 is-parent">
             <div className="tile is-child box">
               <h1 className="headline">Projects</h1>
@@ -75,7 +75,7 @@ function MyApps() {
           </div>
 
           <div className="tile is-6 is-parent">
-            <div className="tile is-child box">
+            <div className="tile is-child box" style={{ display: "flex", flexDirection: "column", alignItems: "stretch"}}>
               <h1 className="headline">Tech Certifications</h1>
                 <ul>
                   <li>- Harvard's CS50: Introduction to Computer Science - <a href="https://cs50.harvard.edu/certificates/d7060a35-0879-40a5-8ac1-31821e327e04" title="Harvard's CS50x" target="_blank">Certificate</a></li>
@@ -88,7 +88,7 @@ function MyApps() {
           </div>
         </div>
 
-        <div className="tile is-ancestor">
+        <div className="tile is-ancestor" style={{ backgroundColor: "rgb(246, 247, 247)", borderTopLeftRadius: "0", borderTopRightRadius: "0", borderBottomLeftRadius: "5px", borderBottomRightRadius: "5px"}}>
           <div className="tile is-6 is-parent">
             <div className="tile is-child box">
               <h1 className="headline">Work Experience</h1>
