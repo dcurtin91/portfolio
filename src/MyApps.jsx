@@ -24,14 +24,14 @@ function MyApps() {
       <h1 style={{ alignItems: "left", marginTop: "150px", fontSize: "50px" }}>
         David Curtin
       </h1>
-      <h1 style={{ alignItems: "left", fontSize: "40px", marginBottom: "10px" }}>
+      {/* <h1 style={{ alignItems: "left", fontSize: "40px", marginBottom: "10px" }}>
         Software Engineer and Musician
-      </h1>
-      <h1 style={{ alignItems: "left", marginBottom: "150px", fontSize: "30px" }}>
+      </h1> */}
+      <h1 style={{ alignItems: "left", marginBottom: "150px", fontSize: "40px" }}>
         Chicago, IL
       </h1>
 
-      <div style={{ display: "flex", justifyContent: "center", marginTop: "100px", marginBottom: "120px" }}>
+      <div style={{ display: "flex", justifyContent: "center", marginTop: "100px", marginBottom: "180px" }}>
         {/* <AbstractArt /> */}
         {!atBottom && (
           <Link
@@ -60,7 +60,7 @@ function MyApps() {
       <div id="bottom"></div>
 
       <div className="about">
-        <div className="tile is-ancestor" style={{ backgroundColor: "rgb(246, 247, 247)", borderTopLeftRadius: "5px", borderTopRightRadius: "5px", borderBottomLeftRadius: "0", borderBottomRightRadius: "0"}}>
+        <div className="tile is-ancestor" style={{ borderTopLeftRadius: "5px", borderTopRightRadius: "5px", borderBottomLeftRadius: "0", borderBottomRightRadius: "0"}}>
           <div className="tile is-6 is-parent">
             <div className="tile is-child box">
               <h1 className="headline">Projects</h1>
@@ -88,7 +88,7 @@ function MyApps() {
           </div>
         </div>
 
-        <div className="tile is-ancestor" style={{ backgroundColor: "rgb(246, 247, 247)", borderTopLeftRadius: "0", borderTopRightRadius: "0", borderBottomLeftRadius: "5px", borderBottomRightRadius: "5px"}}>
+        <div className="tile is-ancestor" style={{ borderTopLeftRadius: "0", borderTopRightRadius: "0", borderBottomLeftRadius: "5px", borderBottomRightRadius: "5px"}}>
           <div className="tile is-6 is-parent">
             <div className="tile is-child box">
               <h1 className="headline">Work Experience</h1>

@@ -49,7 +49,7 @@ const Navbar = () => {
                 <div className="navbar-menu">
                     <div className="navbar-start">
                         <div className="navbar-item has-dropdown is-hoverable">
-                            <div className="navbar-link" style={{ fontSize: "18px", color: "black"}}>
+                            <div className="navbar-link" style={{ fontSize: "18px", color: "white", fontWeight: "bold"}}>
                                 Menu
                             </div>
                             <div className="navbar-dropdown" style={{ fontSize: "16px", color: "black"}}>
