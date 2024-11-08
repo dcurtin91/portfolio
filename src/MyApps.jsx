@@ -20,7 +20,7 @@ function MyApps() {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container" style={{ padding: "10px" }}>
       <h1 style={{ alignItems: "left", marginTop: "150px", fontSize: "50px" }}>
         David Curtin
       </h1>
@@ -31,7 +31,7 @@ function MyApps() {
         Chicago, IL
       </h1>
 
-      <div style={{ display: "flex", justifyContent: "center", marginTop: "100px", marginBottom: "180px" }}>
+      <div style={{ display: "flex", justifyContent: "center", marginTop: "100px", marginBottom: "200px" }}>
         {/* <AbstractArt /> */}
         {!atBottom && (
           <Link

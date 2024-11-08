@@ -27,7 +27,7 @@ export const ContactUs = () => {
     };
 
     return (
-        <div className="tile is-ancestor is-vertical" style={{ marginTop: "30px" }} >
+        <div className="tile is-ancestor is-vertical" style={{ marginTop: "30px", marginBottom: "50px" }} >
             <div className="tile is-parent is-vertical" >
                 <div className="tile is-child" style={{ display: "flex", justifyContent: "center" }}>
 

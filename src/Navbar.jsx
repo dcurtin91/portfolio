@@ -52,7 +52,7 @@ const Navbar = () => {
                             <div className="navbar-link" style={{ fontSize: "18px", color: "white", fontWeight: "bold"}}>
                                 Menu
                             </div>
-                            <div className="navbar-dropdown" style={{ fontSize: "16px", color: "black"}}>
+                            <div className="navbar-dropdown" style={{ fontSize: "16px", color: "white", backgroundColor: "black"}}>
                                 <div><a href="/" className={`navbar-item ${isActive('/')}`}>
                                     Home/About
                                 </a></div>
