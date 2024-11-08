@@ -99,7 +99,7 @@ export const ContactUs = () => {
                             <div className="field-body">
                                 <div className="field">
                                     <div className="control" style={{ display: "flex", justifyContent: "center" }}>
-                                        <button type="submit" className="button is-info">
+                                        <button type="submit" className="button is-link">
                                             Send
                                         </button>
                                     </div>
