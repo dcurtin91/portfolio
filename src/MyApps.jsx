@@ -3,6 +3,11 @@ import { Link } from "react-scroll";
 
 function MyApps() {
   const [atBottom, setAtBottom] = useState(false);
+  const [isVisible, setIsVisble] = useState(false);
+
+  useEffect(() => {
+    setIsVisble(true);
+  }, []);
 
 
   useEffect(() => {
@@ -31,6 +36,8 @@ function MyApps() {
         Chicago, IL
       </h1>
 
+      
+      
       <div style={{ display: "flex", justifyContent: "center", marginTop: "100px", marginBottom: "200px" }}>
         {/* <AbstractArt /> */}
         {!atBottom && (
@@ -39,7 +46,7 @@ function MyApps() {
             spy={true}
             smooth={true}
             duration={500}
-            className="projects-button"
+            className={`projects-button ${isVisible ? 'visible' : 'fade-in'}`}
           >
             <i className="arrow down"></i>
           </Link>
